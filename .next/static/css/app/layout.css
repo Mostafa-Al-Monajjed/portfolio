@@ -1,0 +1,460 @@
+/*!*************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[3]!./app/globals.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************/
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap");
+*, ::before, ::after{
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
+}
+::backdrop{
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
+}
+/*
+! tailwindcss v3.4.19 | MIT License | https://tailwindcss.com
+*/
+/*
+1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
+2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
+*/
+*,
+::before,
+::after {
+  box-sizing: border-box; /* 1 */
+  border-width: 0; /* 2 */
+  border-style: solid; /* 2 */
+  border-color: #e5e7eb; /* 2 */
+}
+::before,
+::after {
+  --tw-content: '';
+}
+/*
+1. Use a consistent sensible line-height in all browsers.
+2. Prevent adjustments of font size after orientation changes in iOS.
+3. Use a more readable tab size.
+4. Use the user's configured `sans` font-family by default.
+5. Use the user's configured `sans` font-feature-settings by default.
+6. Use the user's configured `sans` font-variation-settings by default.
+7. Disable tap highlights on iOS
+*/
+html,
+:host {
+  line-height: 1.5; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  -moz-tab-size: 4; /* 3 */
+  -o-tab-size: 4;
+     tab-size: 4; /* 3 */
+  font-family: DM Sans, sans-serif; /* 4 */
+  font-feature-settings: normal; /* 5 */
+  font-variation-settings: normal; /* 6 */
+  -webkit-tap-highlight-color: transparent; /* 7 */
+}
+/*
+1. Remove the margin in all browsers.
+2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.
+*/
+body {
+  margin: 0; /* 1 */
+  line-height: inherit; /* 2 */
+}
+/*
+1. Add the correct height in Firefox.
+2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
+3. Ensure horizontal rules are visible by default.
+*/
+hr {
+  height: 0; /* 1 */
+  color: inherit; /* 2 */
+  border-top-width: 1px; /* 3 */
+}
+/*
+Add the correct text decoration in Chrome, Edge, and Safari.
+*/
+abbr:where([title]) {
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+/*
+Remove the default font size and weight for headings.
+*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+/*
+Reset links to optimize for opt-in styling instead of opt-out.
+*/
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+/*
+Add the correct font weight in Edge and Safari.
+*/
+b,
+strong {
+  font-weight: bolder;
+}
+/*
+1. Use the user's configured `mono` font-family by default.
+2. Use the user's configured `mono` font-feature-settings by default.
+3. Use the user's configured `mono` font-variation-settings by default.
+4. Correct the odd `em` font sizing in all browsers.
+*/
+code,
+kbd,
+samp,
+pre {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; /* 1 */
+  font-feature-settings: normal; /* 2 */
+  font-variation-settings: normal; /* 3 */
+  font-size: 1em; /* 4 */
+}
+/*
+Add the correct font size in all browsers.
+*/
+small {
+  font-size: 80%;
+}
+/*
+Prevent `sub` and `sup` elements from affecting the line height in all browsers.
+*/
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sub {
+  bottom: -0.25em;
+}
+sup {
+  top: -0.5em;
+}
+/*
+1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)
+2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)
+3. Remove gaps between table borders by default.
+*/
+table {
+  text-indent: 0; /* 1 */
+  border-color: inherit; /* 2 */
+  border-collapse: collapse; /* 3 */
+}
+/*
+1. Change the font styles in all browsers.
+2. Remove the margin in Firefox and Safari.
+3. Remove default padding in all browsers.
+*/
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-feature-settings: inherit; /* 1 */
+  font-variation-settings: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  font-weight: inherit; /* 1 */
+  line-height: inherit; /* 1 */
+  letter-spacing: inherit; /* 1 */
+  color: inherit; /* 1 */
+  margin: 0; /* 2 */
+  padding: 0; /* 3 */
+}
+/*
+Remove the inheritance of text transform in Edge and Firefox.
+*/
+button,
+select {
+  text-transform: none;
+}
+/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Remove default button styles.
+*/
+button,
+input:where([type='button']),
+input:where([type='reset']),
+input:where([type='submit']) {
+  -webkit-appearance: button; /* 1 */
+  background-color: transparent; /* 2 */
+  background-image: none; /* 2 */
+}
+/*
+Use the modern Firefox focus style for all focusable elements.
+*/
+:-moz-focusring {
+  outline: auto;
+}
+/*
+Remove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)
+*/
+:-moz-ui-invalid {
+  box-shadow: none;
+}
+/*
+Add the correct vertical alignment in Chrome and Firefox.
+*/
+progress {
+  vertical-align: baseline;
+}
+/*
+Correct the cursor style of increment and decrement buttons in Safari.
+*/
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+  height: auto;
+}
+/*
+1. Correct the odd appearance in Chrome and Safari.
+2. Correct the outline style in Safari.
+*/
+[type='search'] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+/*
+Remove the inner padding in Chrome and Safari on macOS.
+*/
+::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Change font properties to `inherit` in Safari.
+*/
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+/*
+Add the correct display in Chrome and Safari.
+*/
+summary {
+  display: list-item;
+}
+/*
+Removes the default spacing and border for appropriate elements.
+*/
+blockquote,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+figure,
+p,
+pre {
+  margin: 0;
+}
+fieldset {
+  margin: 0;
+  padding: 0;
+}
+legend {
+  padding: 0;
+}
+ol,
+ul,
+menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/*
+Reset default styling for dialogs.
+*/
+dialog {
+  padding: 0;
+}
+/*
+Prevent resizing textareas horizontally by default.
+*/
+textarea {
+  resize: vertical;
+}
+/*
+1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)
+2. Set the default placeholder color to the user's configured gray 400 color.
+*/
+input::-moz-placeholder, textarea::-moz-placeholder {
+  opacity: 1; /* 1 */
+  color: #9ca3af; /* 2 */
+}
+input::placeholder,
+textarea::placeholder {
+  opacity: 1; /* 1 */
+  color: #9ca3af; /* 2 */
+}
+/*
+Set the default cursor for buttons.
+*/
+button,
+[role="button"] {
+  cursor: pointer;
+}
+/*
+Make sure disabled buttons don't get the pointer cursor.
+*/
+:disabled {
+  cursor: default;
+}
+/*
+1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)
+2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)
+   This can trigger a poorly considered lint error in some tools but is included by design.
+*/
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+  display: block; /* 1 */
+  vertical-align: middle; /* 2 */
+}
+/*
+Constrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)
+*/
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+/* Make elements with the HTML hidden attribute stay hidden by default */
+[hidden]:where(:not([hidden="until-found"])) {
+  display: none;
+}
+.mx-auto{
+  margin-left: auto;
+  margin-right: auto;
+}
+.max-w-2xl{
+  max-width: 42rem;
+}
+.filter{
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+:root { --bg:#f5f1eb; --surface:#fffdf9; --text:#1b1a18; --muted:#77716a; --line:#ded8ce; --accent:#ee6a4e; --accent-dark:#c64f38; --shadow:0 24px 70px rgba(51,39,26,.09); }
+[data-theme="dark"] { --bg:#171817; --surface:#202220; --text:#f3eee6; --muted:#a6a198; --line:#383a36; --accent:#ff8063; --accent-dark:#ffad96; --shadow:0 24px 70px rgba(0,0,0,.22); }
+* { box-sizing:border-box; } html { scroll-behavior:smooth; } body { margin:0; background:var(--bg); color:var(--text); font-family:"DM Sans",sans-serif; } a { color:inherit; text-decoration:none; } button,input,textarea { font:inherit; } button { cursor:pointer; }
+.portfolio-shell { overflow:hidden; } .section-container { width:min(1160px, calc(100% - 64px)); margin:0 auto; } .site-header { height:84px; width:min(1280px, calc(100% - 64px)); margin:auto; display:flex; align-items:center; justify-content:space-between; position:relative; z-index:5; }.logo { display:flex; gap:11px; align-items:center; font-family:"Space Grotesk",sans-serif; font-size:20px; }.logo > span { display:grid; place-items:center; width:34px; height:34px; color:#fff; background:var(--accent); border-radius:50%; font-size:11px; font-weight:700; }.logo strong span { color:var(--accent); }.site-nav { display:flex; gap:34px; margin-left:100px; }.site-nav a,.header-cta,.text-link { font-size:13px; font-weight:600; }.site-nav a { color:var(--muted); transition:color .2s; }.site-nav a:hover { color:var(--accent); }.header-actions { display:flex; gap:15px; align-items:center; }.theme-button,.menu-button { border:1px solid var(--line); background:transparent; color:var(--muted); width:37px; height:37px; border-radius:50%; display:grid; place-items:center; }.theme-button:hover { color:var(--accent); border-color:var(--accent); }.header-cta { display:flex; gap:7px; align-items:center; background:var(--text); color:var(--bg); padding:11px 17px; border-radius:100px; }.menu-button { display:none; }
+.hero { min-height:670px; display:grid; grid-template-columns:1.05fr .95fr; align-items:center; gap:60px; padding:70px 0 95px; }.eyebrow,.section-label { color:var(--muted); font-size:10px; font-weight:700; letter-spacing:1.6px; text-transform:uppercase; }.accent-eyebrow { color:var(--accent); }.hero h1 { font-family:"Space Grotesk",sans-serif; font-size:clamp(48px, 6vw, 78px); line-height:1.02; letter-spacing:-3px; max-width:700px; margin:22px 0 24px; }.hero h1 em,.contact-copy h2 em { color:var(--accent); font-style:normal; }.hero-intro { color:var(--muted); font-size:17px; line-height:1.7; max-width:510px; }.hero-actions { display:flex; gap:25px; align-items:center; margin-top:34px; }.primary-button { background:var(--accent); color:#fff; display:flex; align-items:center; gap:9px; padding:14px 20px; border-radius:5px; font-size:13px; font-weight:600; transition:transform .2s, background .2s; }.primary-button:hover { background:var(--accent-dark); transform:translateY(-2px); }.text-link { display:inline-flex; align-items:center; gap:8px; border-bottom:1px solid var(--text); padding-bottom:4px; }.text-link:hover { color:var(--accent); border-color:var(--accent); }.hero-meta { display:flex; gap:25px; margin-top:65px; color:var(--muted); font-size:11px; }.hero-meta span:first-child { color:var(--text); }.hero-meta i { display:inline-block; width:7px; height:7px; background:#40bf7a; border-radius:50%; margin-right:7px; }.hero-visual { min-height:450px; position:relative; display:grid; place-items:center; }.hero-image-frame { width:min(390px, 76%); aspect-ratio:1; border-radius:48% 52% 45% 55%; overflow:hidden; position:relative; z-index:1; transform:rotate(4deg); box-shadow:var(--shadow); border:12px solid var(--surface); }.hero-image-frame img { width:100%; height:100%; -o-object-fit:cover; object-fit:cover; transform:rotate(-4deg) scale(1.08); }.hero-orbit { position:absolute; border:1px solid var(--accent); opacity:.45; border-radius:50%; }.orbit-one { width:108%; height:62%; transform:rotate(-32deg); }.orbit-two { width:74%; height:112%; transform:rotate(34deg); }.floating-card { display:flex; align-items:center; gap:11px; position:absolute; right:2%; bottom:42px; padding:15px 18px; background:var(--surface); border:1px solid var(--line); box-shadow:var(--shadow); border-radius:8px; z-index:2; font-size:11px; color:var(--muted); line-height:1.5; }.floating-card svg { color:var(--accent); }.floating-card strong { color:var(--text); }
+.about-section,.work-section,.experience-section,.contact-section { border-top:1px solid var(--line); padding:90px 0; }.section-label { display:flex; gap:15px; align-items:center; color:var(--accent); }.section-label span { color:var(--muted); }.about-grid { display:grid; grid-template-columns:1fr 1fr; gap:90px; margin:38px 0 55px; }.about-grid h2,.section-heading h2,.experience-grid h2 { font-family:"Space Grotesk",sans-serif; font-size:clamp(32px,4vw,50px); letter-spacing:-2px; line-height:1.08; margin:0; }.about-grid p,.section-heading > p,.timeline-item p,.contact-copy > p { color:var(--muted); line-height:1.75; margin:0 0 25px; }.skills-row { display:flex; flex-wrap:wrap; gap:10px; }.skills-row span,.filter-row button { border:1px solid var(--line); border-radius:100px; color:var(--muted); padding:9px 15px; font-size:12px; }.section-heading { display:flex; justify-content:space-between; align-items:end; gap:50px; margin-bottom:32px; }.section-heading h2 { margin-top:22px; }.section-heading > p { max-width:290px; margin:0; font-size:13px; }.filter-row { display:flex; gap:8px; margin-bottom:23px; }.filter-row button { background:transparent; cursor:pointer; transition:background .25s ease, color .25s ease, border-color .25s ease, transform .25s ease; }.filter-row button:hover { transform:translateY(-2px); }.filter-row button:hover,.filter-row button.selected { background:var(--text); color:var(--bg); border-color:var(--text); }.projects-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:28px; }.project-card { min-width:0; }.project-card-enter { animation:project-card-enter .55s cubic-bezier(.2,.75,.25,1) both; }.project-image { display:block; position:relative; overflow:hidden; background:var(--surface); border-radius:8px; aspect-ratio:1.78; }.project-image img { width:100%; height:100%; -o-object-fit:cover; object-fit:cover; transition:transform .5s; }.project-image span { position:absolute; right:15px; bottom:15px; display:flex; align-items:center; gap:6px; background:var(--text); color:var(--bg); border-radius:100px; padding:9px 12px; font-size:11px; opacity:0; transform:translateY(8px); transition:.3s; }.project-image:hover img { transform:scale(1.04); }.project-image:hover span { opacity:1; transform:translateY(0); }.project-info { display:flex; justify-content:space-between; padding:16px 2px; }.project-info p { color:var(--accent); font-size:10px; text-transform:uppercase; letter-spacing:1px; margin:0 0 7px; }.project-info h3 { margin:0; font-family:"Space Grotesk",sans-serif; font-size:20px; }.project-info > a { color:var(--muted); }.project-info > a:hover { color:var(--accent); }.experience-grid { display:grid; grid-template-columns:1fr 1fr; gap:90px; margin-top:40px; }.timeline { border-top:1px solid var(--line); }.timeline-item { display:grid; grid-template-columns:130px 1fr; gap:25px; border-bottom:1px solid var(--line); padding:24px 0; }.timeline-item > span { color:var(--accent); font-size:11px; text-transform:uppercase; letter-spacing:.8px; }.timeline-item h3 { margin:0 0 8px; font-size:16px; }.timeline-item p { font-size:13px; margin:0; }.contact-section { display:grid; grid-template-columns:1fr 1fr; gap:100px; padding-bottom:100px; }.contact-copy h2 { font-family:"Space Grotesk",sans-serif; font-size:clamp(40px,5vw,64px); letter-spacing:-3px; line-height:1.04; margin:35px 0 20px; }.contact-details { display:flex; justify-content:space-between; align-items:center; margin-top:50px; }.contact-details > a,.contact-details div a { display:flex; gap:8px; align-items:center; color:var(--muted); font-size:12px; }.contact-details a:hover { color:var(--accent); }.contact-details div { display:flex; gap:12px; }.contact-form { background:var(--surface); border:1px solid var(--line); padding:28px; border-radius:8px; box-shadow:var(--shadow); }.contact-fields { display:grid; gap:19px; }.contact-form label { color:var(--muted); font-size:11px; }.contact-form input,.contact-form textarea { display:block; width:100%; border:0; border-bottom:1px solid var(--line); background:transparent; color:var(--text); outline:0; padding:12px 0; resize:vertical; }.contact-form input:focus,.contact-form textarea:focus { border-color:var(--accent); }.contact-submit { margin-top:24px; border:0; background:var(--accent); color:#fff; padding:13px 18px; display:flex; align-items:center; gap:8px; font-size:12px; border-radius:4px; }.contact-submit:disabled { opacity:.6; cursor:wait; }.contact-error { color:var(--accent); font-size:12px; }.contact-success { display:flex; gap:10px; align-items:center; color:#40bf7a; border:1px solid var(--line); padding:20px; border-radius:8px; }.site-footer { width:min(1160px,calc(100% - 64px)); margin:auto; border-top:1px solid var(--line); padding:25px 0 35px; display:flex; justify-content:space-between; color:var(--muted); font-size:11px; }.site-footer a:hover { color:var(--accent); } @keyframes project-card-enter { from { opacity:0; transform:translateY(18px) scale(.98); } to { opacity:1; transform:translateY(0) scale(1); } }
+.hero-image-frame { cursor:zoom-in; border:12px solid var(--surface); padding:0; color:inherit; font:inherit; }.profile-lightbox { position:fixed; inset:0; z-index:30; display:grid; place-items:center; padding:24px; background:rgba(10,10,10,.82); animation:lightbox-fade .25s ease both; }.profile-lightbox-content { position:relative; width:min(700px,90vw); }.profile-lightbox-content img { display:block; width:100%; height:auto; max-height:85vh; -o-object-fit:contain; object-fit:contain; border-radius:10px; }.profile-lightbox-close { position:absolute; top:-18px; right:-18px; z-index:1; display:grid; place-items:center; width:40px; height:40px; border:1px solid var(--line); border-radius:50%; background:var(--surface); color:var(--text); }.profile-lightbox-close:hover { color:var(--accent); transform:rotate(90deg); }.hero-image-frame:focus-visible,.profile-lightbox-close:focus-visible { outline:3px solid var(--accent); outline-offset:4px; } @keyframes lightbox-fade { from { opacity:0; } to { opacity:1; } }
+@media (max-width:800px) { .section-container,.site-header,.site-footer { width:min(100% - 40px,1160px); }.site-header { height:72px; }.site-nav { display:none; position:absolute; top:65px; left:0; right:0; margin:0; padding:20px; background:var(--surface); border:1px solid var(--line); flex-direction:column; gap:18px; box-shadow:var(--shadow); }.site-nav.open { display:flex; }.header-cta { display:none; }.menu-button { display:grid; }.hero { grid-template-columns:1fr; padding:65px 0 80px; gap:20px; }.hero h1 { letter-spacing:-2px; }.hero-meta { flex-direction:column; gap:10px; margin-top:45px; }.hero-visual { min-height:350px; }.floating-card { right:0; bottom:15px; }.about-grid,.experience-grid,.contact-section { grid-template-columns:1fr; gap:35px; }.section-heading { display:block; }.section-heading > p { margin-top:20px; }.projects-grid { grid-template-columns:1fr; }.contact-section { gap:40px; }.site-footer { flex-wrap:wrap; gap:14px; } }
+@media (max-width:480px) { .hero { padding-top:45px; }.hero h1 { font-size:44px; }.hero-intro { font-size:15px; }.hero-actions { gap:16px; flex-wrap:wrap; }.hero-visual { min-height:300px; }.hero-image-frame { width:78%; }.about-section,.work-section,.experience-section,.contact-section { padding:65px 0; }.filter-row { overflow:auto; padding-bottom:5px; }.filter-row button { white-space:nowrap; }.contact-details { align-items:flex-start; flex-direction:column; gap:20px; }.site-footer { font-size:10px; } }
+
