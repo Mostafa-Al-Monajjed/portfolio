@@ -15,7 +15,16 @@ import {
 } from "lucide-react";
 import ContactForm from "./contact-form";
 
-const projects = [
+type Project = {
+  title: string;
+  category: string;
+  image: string;
+  url: string;
+  github: string;
+  linkedin?: string;
+};
+
+const projects: Project[] = [
   { title: "Guess Game", category: "JavaScript", image: "/images/1.png", url: "https://guess-dbc0f3.netlify.app", github: "https://github.com/Mostafa-Al-Monajjed/Template-One" },
   { title: "Memory Game", category: "JavaScript", image: "/images/2.png", url: "https://memory-e56cf9.netlify.app", github: "https://github.com/Mostafa-Al-Monajjed/Template-Two" },
   { title: "Hangman Game", category: "JavaScript", image: "/images/3.png", url: "https://hangman-3c14ff.netlify.app", github: "https://github.com/Mostafa-Al-Monajjed/Template-Three" },
@@ -28,10 +37,13 @@ const projects = [
   { title: "World Explorer", category: "React", image: "/images/10.png", url: "https://world-explorer-519233.netlify.app", github: "https://github.com/Mostafa-Al-Monajjed/world-explorer" },
   { title: "My To Do List", category: "TypeScript", image: "/images/11.png", url: "https://todo-list-234.netlify.app", github: "https://github.com/Mostafa-Al-Monajjed/To-Do-List" },
   { title: "Invitation", category: "HTML & CSS", image: "/images/12.png", url: "https://invitation-57c861.netlify.app", github: "https://github.com/Mostafa-Al-Monajjed/Invitation" },
+  { title: "Event Platform", category: "Next.js", image: "/images/10.png", url: "https://event-platform-pi-umber.vercel.app", github: "https://github.com/Mostafa-Al-Monajjed/event-platform.git", linkedin: "https://lnkd.in/p/eSxsmGEU" },
+  { title: "Movie Explorer", category: "Next.js", image: "/images/11.png", url: "https://movie-explorer-2026-olive.vercel.app", github: "https://github.com/Mostafa-Al-Monajjed/movie-explorer.git", linkedin: "https://lnkd.in/p/e6RUdwBW" },
+  { title: "Weather App", category: "Next.js", image: "/images/12.png", url: "https://weatherapp-sepia-mu.vercel.app", github: "https://github.com/Mostafa-Al-Monajjed/weather-app.git", linkedin: "https://lnkd.in/p/d7wYnuRh" },
 ];
 
 const skills = ["React", "Next.js", "TypeScript", "JavaScript", "Tailwind CSS", "UI/UX"];
-const categories = ["All", "React", "JavaScript", "HTML & CSS", "TypeScript"];
+const categories = ["All", "React", "Next.js", "JavaScript", "HTML & CSS", "TypeScript"];
 
 export default function Dashboard() {
   const [dark, setDark] = useState(true);
@@ -103,7 +115,7 @@ export default function Dashboard() {
         <section id="work" className="work-section section-container">
           <div className="section-heading"><div><div className="section-label">02 <span>Selected work</span></div><h2>A few things I&apos;ve built.</h2></div><p>Each project is an opportunity to solve a problem with purpose and personality.</p></div>
           <div className="filter-row">{categories.map((category) => <button className={filter === category ? "selected" : ""} key={category} onClick={() => setFilter(category)}>{category}</button>)}</div>
-          <div className="projects-grid" key={filter}>{visibleProjects.map((project, index) => <article className="project-card project-card-enter" style={{ animationDelay: `${index * 70}ms` }} key={project.title}><a className="project-image" href={project.url} target="_blank" rel="noreferrer"><Image src={project.image} alt={`${project.title} preview`} width={540} height={304} /><span>View project <ArrowUpRight size={16} /></span></a><div className="project-info"><div><p>{project.category}</p><h3>{project.title}</h3></div><a href={project.github} target="_blank" rel="noreferrer" aria-label={`${project.title} source code`}><Github size={18} /></a></div></article>)}</div>
+          <div className="projects-grid" key={filter}>{visibleProjects.map((project, index) => <article className="project-card project-card-enter" style={{ animationDelay: `${index * 70}ms` }} key={project.title}><a className="project-image" href={project.url} target="_blank" rel="noreferrer"><Image src={project.image} alt={`${project.title} preview`} width={540} height={304} /><span>View project <ArrowUpRight size={16} /></span></a><div className="project-info"><div><p>{project.category}</p><h3>{project.title}</h3></div><div className="project-links"><a href={project.github} target="_blank" rel="noreferrer" aria-label={`${project.title} source code`}><Github size={18} /></a>{project.linkedin && <a href={project.linkedin} target="_blank" rel="noreferrer" aria-label={`${project.title} LinkedIn post`}><Linkedin size={18} /></a>}</div></div></article>)}</div>
         </section>
 
         <section id="experience" className="experience-section section-container">
